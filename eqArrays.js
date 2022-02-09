@@ -17,7 +17,7 @@ const eqArrays = function(array1, array2) {
     }
   }
   return match;
-}
+};
 
 // write code for eqArrays function
 // takes two arrays and returns true or false based on perfect match
