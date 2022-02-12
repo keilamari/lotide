@@ -7,8 +7,7 @@ const assertEqual = function(actual, expected) {
 };
 
 const head = function(array1) {
-  const answer = array1.shift();
-  return answer;
+  return array1[0];
 };
 
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Lighthouse");
