@@ -9,6 +9,7 @@ const assertArraysEqual = function(actual, expected) {
     assertion = `👎👎👎Assertion failed`;
   }
   console.log(assertion);
+  return assertion;
 };
 
 module.exports = assertArraysEqual;
